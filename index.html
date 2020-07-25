@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="div1"><h1>THANKS FOR RIDING WITH US!!</h1>
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyee-Ratings</title>
+    <link rel="stylesheet" href="rating.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script async defer src="star.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-group">
+            <select  id="rating-select" class="form-controlcustom-select">
+                <option value="0" disabled selected>SelectRating</option>
+                <option value="hows" >How's the Ride</option>
+                <option value="drivernature" >Behaviour of Driver</option>
+                <option value="clean" >Is OYE-RICKSHAW's neat and clean</option>
+                <option value="overallRating" >Give your overall rating for our application</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1-5" disabled>
+        </div>
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th>GIVE YOUR RATINGS TO OYE-RICKSHAW</th>
+                    <th>RATINGS</th>
+                </tr>
+                <tbody>
+                    <tr class="hows">
+                        <td>How's the Ride</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner fas fa-star" id=""></div>
+                               
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                        
+                    </tr>
+                    <tr class="drivernature">
+                        <td>Behaviour of Driver</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                               
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                        
+                    </tr>
+                    <tr class="clean">
+                        <td>Is OYE-RICKSHAW's neat and clean</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                               
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                        
+                    </tr>
+                    <tr class="overallRating">
+                        <td>Give your overall rating for our application</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                               
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                        
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <!-- <script></script> -->
+</body>
+</html>
