@@ -8,7 +8,7 @@ const ratings={
 //total ratings
 const ratingTotal=5;
 //Run getRatings
-document.addEventListener('DOMContentLoaded',getRatings);
+window.addEventListener('DOMContentLoaded',getRatings);
 //forms
 const ratingSelect=document.getElementById('rating-select');
 const ratingControl=document.getElementById('rating-control');

@@ -27,7 +27,7 @@
     font-weight: 900;
 
 }
-.stars-inner{
+.stars-inner::before{
     content: "\f005 \f005 \f005 \f005 \f005";
     font-family: 'Font Awesome 5 free';
     color: #f8ce0b;
